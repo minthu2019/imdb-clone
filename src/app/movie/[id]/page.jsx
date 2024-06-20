@@ -14,7 +14,7 @@ const movie = async ({params}) => {
 
           <Image
             src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path || movie.poster_path}`}
-            alt={movie.title || movie.name}
+            alt={''}
             width={500}
             height={300}
             style={{maxWidth : '100%' ,height : '100%'}}
