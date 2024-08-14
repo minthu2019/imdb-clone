@@ -23,7 +23,7 @@
 //   );
 // }
 'use client'
-import Results from '@/components/Results';
+import Results from '../../components/Results';
 import { useState, useEffect } from 'react';
 
 const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
